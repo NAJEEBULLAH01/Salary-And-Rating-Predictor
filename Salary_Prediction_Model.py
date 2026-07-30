@@ -26,7 +26,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    MODEL_ZIP = "SalaryPrediction1"
+    MODEL_ZIP = "SalaryPrediction1.zip"
     MODEL_PKL = "SalaryPrediction1.pickle"
     if not os.path.exists(MODEL_PKL):
         if os.path.exists(MODEL_ZIP):
